@@ -1,6 +1,16 @@
 meteor-force-ssl
 ================
 
+
+Meteor Atmosphere page
+https://atmospherejs.com/lsun/force-ssl
+
+To install
+```
+meteor add lsun:force-ssl
+```
+
+
 This package redirects insecure connections to secure connection. Modified version of Meteor's force-ssl package (https://github.com/meteor/meteor)
 
 The difference with this package and the original one supplied by meteor development group (mdg) is that this package checks for an expanded list of IP addresses in order to determine if the app is being served from a local host.
